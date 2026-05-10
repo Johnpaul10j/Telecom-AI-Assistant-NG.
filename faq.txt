@@ -1,0 +1,49 @@
+=== NCC UNIFIED USSD CODES (All Networks: MTN, Glo, Airtel, 9mobile) ===
+
+These codes work the same on ALL Nigerian networks as mandated by the NCC.
+
+Airtime Balance: To check your airtime balance on any network, dial *310#. This unified code works on MTN, Glo, Airtel, and 9mobile.
+
+Data Balance: To check your data balance on any network, dial *323#. This works across MTN, Glo, Airtel, and 9mobile.
+
+Recharge Airtime: To recharge airtime on any network, dial *311*VoucherPIN#. For example, dial *311*123456789012# replacing the digits with your actual recharge PIN.
+
+Buy Data Plans: To buy a data plan on any network, dial *312# and follow the menu prompts to choose your preferred bundle.
+
+Borrow Airtime or Data: If you are low on balance, dial *303# and follow the prompts to borrow airtime or data. A small service charge applies.
+
+Transfer Airtime: To transfer or gift airtime to someone, dial *321# and follow the prompts.
+
+Customer Care: To reach customer care on any network (MTN, Glo, Airtel, or 9mobile), simply dial 300. This unified number works on all networks 24/7.
+
+NIN Linkage: To link your National Identification Number (NIN) to your SIM on any network, dial *996# and follow the prompts.
+
+Number Portability: To port your number from one network to another, dial *3232#.
+
+DND (Stop Promotional SMS): To activate Do Not Disturb and stop unsolicited promotional messages, dial *2442#.
+
+Voicemail: To access voicemail on any network, call 302.
+
+=== GENERAL TROUBLESHOOTING ===
+
+Slow Network: Slow network can be caused by congestion, poor signal strength, or high usage in your area. Try restarting your phone, moving to an open area, or manually switching between 4G and 3G in your network settings. You can also dial *312# to check if there are data plan issues.
+
+No Signal: Switch on Airplane mode for 15 seconds then turn it off. If the issue persists, restart your phone. Check if others nearby on the same network have signal. Contact customer care by dialing 300 if the problem continues.
+
+USSD Code Not Working: If a new NCC unified code fails, try the old network-specific code as some SIMs are still transitioning. Wait a few seconds and retry. If still failing, call 300 to reach customer care on any network.
+
+Reset Network Settings on Android: Go to Settings, then System, then Reset options, then Reset Wi-Fi, mobile and Bluetooth settings, then tap Reset Settings.
+
+Reset Network Settings on iPhone: Go to Settings, then General, then Transfer or Reset iPhone, then Reset, then Reset Network Settings.
+
+Lost or Stolen SIM: If your SIM is lost or stolen, call 300 immediately on another phone to report and block the SIM. Visit the nearest service center with a valid government-issued ID to get a replacement.
+
+=== NETWORK-SPECIFIC SELF-SERVICE MENUS ===
+
+MTN Self-Service: Dial *123# for MTN account info, tariff migration, and other services. You can also use the MyMTN app or chat with Zigi, MTN's AI assistant.
+
+Airtel Self-Service: Dial *121*1# to access Airtel-specific offers and benefits. You can also use the Airtel Thanks app.
+
+Glo Self-Service: Dial *777# for Glo-specific data and service menus. Night plans and special Glo offers also appear under *312#.
+
+9mobile Self-Service: Dial *200# for 9mobile-specific service menus. You can also use the 9mobile app.

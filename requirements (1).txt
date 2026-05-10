@@ -1,0 +1,9 @@
+
+huggingface_hub
+pydub
+langchain
+langchain-core
+langchain-community
+faiss-cpu
+langchain-text-splitters
+sentence-transformers
