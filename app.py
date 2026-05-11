@@ -6,17 +6,11 @@ import huggingface_hub
 mock_hf = MagicMock()
 huggingface_hub.HfFolder = mock_hf
 
-
-
-# Rest of your code follows...
 import gradio as gr
 import os
 
 
 os.environ["GRADIO_NO_AUDIO"] = "1"
-
-
-
 
 from langchain_community.document_loaders import TextLoader
 from langchain_community.embeddings import HuggingFaceEmbeddings
@@ -26,10 +20,8 @@ from huggingface_hub import InferenceClient
 from langchain_core.prompts import PromptTemplate
 #from langchain.prompts import PromptTemplate
 
-# ... rest of your code remains the same
-
 # ====================== CONFIG ======================
-hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+hf_token = os.getenv("**************")
 client = InferenceClient(token=hf_token)
 
 # ====================== LOAD FAQ ======================
@@ -83,7 +75,7 @@ def chatbot(message, history):
             if prefix in answer:
                 answer = answer.split(prefix)[-1].strip()
 
-        # Add citations
+        # Adding citations
         sources = "\n\n**Sources:** " + ", ".join([f"Doc {i+1}" for i in range(len(retrieved))])
         
         return answer + sources
@@ -98,41 +90,6 @@ custom_css = """
 """
 
 # ====================== UI ======================
-#with gr.Blocks(title="Telecom AI Assistant", css=custom_css) as demo:
- #   gr.Markdown("""
-    # 📡 Telecom AI Assistant
-    
-  #  **Smart • Fast • Reliable**  
-   # AI-Powered Support for MTN • Glo • Airtel • 9mobile
-    #""")
-    
-    #gr.ChatInterface(
-     #   fn=chatbot,
-      #  chatbot=gr.Chatbot(height=720),
-       # textbox=gr.Textbox(placeholder="Ask any telecom question..."),
-        #examples=[
-         #   ["How can I check my data balance?"],
-          #  ["Why is my network slow?"],
-           # ["What should I do if my SIM is lost?"],
-            #["Tell me about current data plans"]
-        #],
-    #)
-    
-    #gr.Markdown("""
-    #---
-    #⚡ Built with LangChain • FAISS • Llama-3.2  
-    #**Portfolio Project** | With Source Citations
-    #""")
-
-# Launch (Correct way for Gradio 6.0+)
-#demo.launch(
- #   server_name="0.0.0.0",
-  #  server_port=int(os.environ.get("PORT", 7860)),
-   # theme=gr.themes.Soft()
-#)
-
-# ====================== UI ======================
-# MOVED: The theme is now here inside gr.Blocks()
 with gr.Blocks(title="Telecom AI Assistant", css=custom_css, theme=gr.themes.Soft()) as demo:
     gr.Markdown("""
     # 📡 Telecom AI Assistant
@@ -160,7 +117,7 @@ with gr.Blocks(title="Telecom AI Assistant", css=custom_css, theme=gr.themes.Sof
     **Portfolio Project** | With Source Citations
     """)
 
-# Launch (REMOVED: theme argument from here)
+# Launch
 demo.launch(
     server_name="0.0.0.0",
     server_port=int(os.environ.get("PORT", 7860))
